@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LightningDesignApp</title>
+    <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+    <!-- Lightning Design System -->
+    <%= stylesheet_link_tag "SLDS080/assets/styles/salesforce-lightning-design-system.min.css" %>
+  </head>
+  <body>
+    <header class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <%= link_to 'Lightning Design System Sample', root_path, class: 'navbar-brand' %>
+        </div>
+      </div>
+    </header>
+    <div class="container" style="margin-top: 60px;">
+      <%= yield %>
+    </div>
+  </body>
+</html>
