@@ -1,7 +1,7 @@
 ## Rails & Lightning Design System Sample
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/tyoshikawa1106/rails-lightning-system-design-sample)
 
-CSSはコチラを読み込めば利用できました。
+次のCSSを読み込めば利用できました。
 ```html
 <%= stylesheet_link_tag "SLDS080/assets/styles/salesforce-lightning-design-system.min.css" %>
 ```
