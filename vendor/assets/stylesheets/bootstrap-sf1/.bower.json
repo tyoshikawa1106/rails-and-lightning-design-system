@@ -1,0 +1,35 @@
+{
+  "name": "bootstrap-sf1",
+  "version": "0.1.0-beta.15",
+  "private": false,
+  "author": "Ryan Foster",
+  "main": [
+    "dist/bootstrap.css",
+    "dist/bootstrap.min.css"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "pages",
+    "templates",
+    "grunt",
+    "js",
+    "Gruntfile.js",
+    "index.html"
+  ],
+  "devDependencies": {
+    "bootstrap": "3.2.0"
+  },
+  "homepage": "https://github.com/SalesforceFoundation/bootstrap-sf1",
+  "_release": "0.1.0-beta.15",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.0-beta.15",
+    "commit": "b87307240673e354c9dc5a7fc68a8bc418d9a531"
+  },
+  "_source": "git://github.com/SalesforceFoundation/bootstrap-sf1.git",
+  "_target": "~0.1.0-beta.15",
+  "_originalSource": "bootstrap-sf1",
+  "_direct": true
+}

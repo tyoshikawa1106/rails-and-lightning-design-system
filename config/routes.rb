@@ -30,5 +30,5 @@ LightningDesignApp::Application.routes.draw do
   match '/themes', to: 'components#themes', via: 'get'
   match '/truncation', to: 'components#truncation', via: 'get'
   match '/visibility', to: 'components#visibility', via: 'get'
-  root 'components#index'
+  root 'components#activity_timeline'
 end
