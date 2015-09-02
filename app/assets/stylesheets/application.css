@@ -10,4 +10,5 @@
  *
  *= require_self
  *= require_tree .
+ *= require SLDS080/assets/styles/salesforce-lightning-design-system.min.css
  */
